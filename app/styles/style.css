@@ -5261,6 +5261,7 @@ th.hide-for-touch {
   display: table-cell !important; }
 
 .title {
+  margin-bottom: 1em;
   font-weight: 100;
   letter-spacing: 10px; }
 
