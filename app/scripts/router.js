@@ -1,0 +1,3 @@
+EmberMarkdownProcessor.Router.map(function () {
+  
+});

@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Markdown Processor</title>
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <!-- endbuild -->
+</head>
+    <body>
+        <!--[if lt IE 9]>
+            <script src="scripts/lt-ie9.js"></script>
+        <![endif]-->
+        <!-- build:js(app) scripts/components.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/handlebars/handlebars.runtime.js"></script>
+        <script src="@@ember"></script>
+        <script src="bower_components/markdown/lib/markdown.js"></script>
+        <script src="bower_components/foundation/js/foundation.min.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/main.js -->
+        <script src="scripts/compiled-templates.js"></script>
+        <script src="scripts/combined-scripts.js"></script>
+        <!-- endbuild -->
+
+        <noscript>
+            <div class="alert-box">
+                Please enable JavaScript to use the Markdown parser.
+            </div>
+        </noscript>
+</body>
+</html>
