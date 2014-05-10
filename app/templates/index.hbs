@@ -1,14 +1,22 @@
 <div class="markdown">
-<h4><span data-tooltip class="has-tip tip-right" title="Enter the Markdown that you want converted here.">Markdown</span></h4>
+    <h4>
+        <span data-tooltip class="has-tip tip-right" title="Enter the Markdown that you want converted here.">Markdown</span>
+        <span class="button radius small right" {{action 'clear'}}>Clear</span>
+    </h4>
     {{textarea value=markdown cols="80" rows="6"}}
 </div>
 
 <div class="raw">
-    <h4><span data-tooltip class="has-tip tip-right" title="This is the Markdown converted to HTML, but not rendered.">Raw HTML</span></h4>
+    <h4>
+        <span data-tooltip class="has-tip tip-right" title="This is the Markdown converted to HTML, but not rendered.">Raw HTML</span>
+        <span class="button radius small right" {{action 'selectAll' '.raw textarea'}}>Select All</span>
+    </h4>
     {{textarea readonly="readonly" value=html cols="80" rows="6"}}
 </div>
 
 <div class="rendered">
-    <h4><span data-tooltip class="has-tip tip-right" title="This is the Markdown converted to HTML and rendered.">Rendered HTML</span></h4>
+    <h4>
+        <span data-tooltip class="has-tip tip-right" title="This is the Markdown converted to HTML and rendered.">Rendered HTML</span>
+    </h4>
     <div>{{{html}}}</div>
 </div>
