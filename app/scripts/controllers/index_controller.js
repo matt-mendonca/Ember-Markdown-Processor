@@ -5,7 +5,7 @@ EmberMarkdownProcessor.IndexController = Ember.ObjectController.extend({
     },
 
     selectAll: function(selector) {
-      $(selector).select();
+      jQuery(selector).select();
     }
   }
 });
